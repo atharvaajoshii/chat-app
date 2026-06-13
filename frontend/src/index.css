@@ -1,3 +1,24 @@
 @import "tailwindcss";
 @plugin "daisyui";
 
+
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: red !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: yellow !important;
+  border-radius: 9999px;
+}
