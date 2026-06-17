@@ -21,7 +21,7 @@ export const signup = async (req, res) => {
         // https://api.dicebear.com/10.x/lorelei/svg?seed=Felix
         // https://xsgames.co/randomusers/avatar.php?g=male 
 
-        const profile = `https://xsgames.co/randomusers/avatar.php?g=pixel`
+        const profile = `https://xsgames.co/randomusers/assets/avatars/pixel/${Math.floor(Math.random() * 50)}.jpg`;
         const newUser = new User({
             fullname,
             username,

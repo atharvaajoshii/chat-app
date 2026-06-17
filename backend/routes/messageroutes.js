@@ -5,6 +5,6 @@ import protectRoute from "../middleware/protectRoute.js";
 const router = express.Router();
 
 router.get('/:id',protectRoute,getmessages)
-router.post('/sent/:id',protectRoute,sendmessage)
+router.post('/send/:id',protectRoute,sendmessage)
 
 export default router;
