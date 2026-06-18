@@ -4,7 +4,7 @@ ChatMe is a real-time messaging application that enables users to communicate in
 
 ## Live Demo
 
-[Start Chatting!!!](https://chat-me-rtjj.onrender.com/login)
+[Start Chatting!!!](https://chat-me-rtjj.onrender.com)
 
 ## Features
 
